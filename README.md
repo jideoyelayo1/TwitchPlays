@@ -1,14 +1,35 @@
-# TwitchPlays
-These are the three Python files I use that allows Twitch Chat or Youtube Chat to control your keyboard or mouse to play a game. You are welcome to use or adapt this code for your own content.
+# TwitchPlays - Interactive Chat-Controlled Gaming and Live Bots
 
-To run the code you will need to install Python 3.9.  
-Additionally, you will need to install the following python modules using Pip:  
-python -m pip install keyboard  
-python -m pip install pydirectinput  
-python -m pip install pyautogui  
-python -m pip install pynput  
-python -m pip install requests  
+TwitchPlays is a project that allows you to create interactive experiences for your Twitch or YouTube live streams. With this codebase, you can empower your viewers to control your keyboard and mouse, effectively enabling them to play games alongside you or interact with custom bots during your live broadcasts.
 
-Once Python is set up, simply change the Twitch username (or Youtube channel ID) in TwitchPlays_TEMPLATE.py, and you'll be ready to go.
+## Features
 
-This code is originally based off Wituz's Twitch Plays template, then expanded by DougDoug and DDarknut with help from Ottomated for the Youtube side. For now I am not reviewing any pull requests or code changes, this code is meant to be a simple prototype that is uploaded for educational purposes. But feel free to fork the project and create your own version!
+- **Chat-Controlled Interaction:** TwitchPlays lets your viewers control your keyboard and mouse inputs through chat messages, enabling collaborative gameplay experiences.
+- **Customizable for Your Content:** You are encouraged to modify and adapt the provided Python code to suit your specific needs and creative ideas.
+- **Multi-Platform Support:** The code is designed to work with both Twitch and YouTube live chats, providing flexibility for your streaming platform.
+- **Educational and Open:** This project is built upon a foundation established by Wituz's Twitch Plays template, and it has been expanded by contributors like DougDoug, DDarknut, and Ottomated for YouTube integration. The code is uploaded for educational purposes, allowing you to learn and build upon it.
+
+## Getting Started
+
+To set up and run TwitchPlays for your own live streams, follow these steps:
+
+1. Install Python 3.9 on your system.
+
+2. Install the necessary Python modules using pip:
+   ```bash
+   python -m pip install keyboard pydirectinput pyautogui pynput requests
+   ```
+Open the TwitchPlays_TEMPLATE.py file and replace the placeholder Twitch username (or YouTube channel ID) with your own username or ID.
+
+Run the modified TwitchPlays_TEMPLATE.py using Python.
+
+Contributing
+This codebase was initially based on Wituz's Twitch Plays template and has been expanded by various contributors. At this time, pull requests and code changes are not being actively reviewed for merging into the main project. However, we encourage you to fork the project, experiment with it, and create your own customized versions to suit your creative vision.
+
+Disclaimer
+Please note that this code is provided for educational and experimental purposes. While efforts have been made to ensure its functionality, the project might have limitations or potential issues. Use it at your own discretion, and consider the privacy and security implications of allowing chat to control your keyboard and mouse.
+
+Contact
+If you have any questions, suggestions, or insights related to TwitchPlays, feel free to reach out to the original contributors or engage with the community that might have formed around the project.
+
+Remember, TwitchPlays offers an exciting opportunity to engage your audience in a whole new way. Have fun, be creative, and create memorable interactive experiences for your viewers!
